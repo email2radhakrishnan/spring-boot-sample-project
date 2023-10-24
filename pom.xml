@@ -5,8 +5,8 @@
     <groupId>com.training</groupId>
     <artifactId>spring-sample-project</artifactId>
     <version>1.0.0</version>
-    <name>spring-sample-project</name>
-    <description>spring-sample-project</description>
+    <name>spring-boot-sample-project</name>
+    <description>spring-boot-sample-project</description>
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
@@ -15,7 +15,7 @@
     </parent>
 
     <properties>
-        <service.name>spring-sample-project</service.name>
+        <service.name>spring-boot-sample-project</service.name>
 
         <!-- Java Version -->
         <java.version>11</java.version>
