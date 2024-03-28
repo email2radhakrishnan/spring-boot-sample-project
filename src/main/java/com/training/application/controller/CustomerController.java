@@ -18,6 +18,7 @@ public class CustomerController {
     public ResponseEntity createCustomer(@RequestBody Customer customer) {
         customerService.createCustomer(customer);
         ResponseEntity response = new ResponseEntity("Successfully created the customer", HttpStatus.CREATED);
+        System,out.print("test");
 
         return response;
     }
